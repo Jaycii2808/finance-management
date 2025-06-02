@@ -1,16 +1,49 @@
-# finance_management
+# Finance Management App
 
-A new Flutter project.
+Finance Management is a modern mobile application built with Flutter, designed to help you manage your personal finances smartly and securely. The app supports authentication, transaction management, analytics, notifications, category management, and more. Data is synchronized via Firebase, with push notifications and a beautiful, responsive UI. State management is handled with Bloc, and navigation uses GoRouter for smooth transitions.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+Android APP: ![img_1.png](img_1.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## APK & Demo Video
+
+-  **WEB:** [Access here](http://biwofinance.web.app/)
+-  **APK Download:** [Download here](https://bom.so/biwofinance)
+
+---
+
+## Features
+
+-  Sign up and log in with email & password
+-  Manage income and expense transactions: add, edit, delete
+-  Categorize transactions for better tracking
+-  Financial analytics and statistics with charts
+-  Receive reminders and push notifications for new transactions
+-  Manage user profile, change password, and secure your account
+-  Onboarding and splash screens for new users
+-  Data synchronization with Firebase and push notifications via Firebase Messaging
+-  Reusable UI widgets and Bloc-based state management
+
+---
+
+## Prerequisites
+
+-  .env
+-  android/app/google-services.json
+-  firebase.json
+-  firebase_options.dart
+
+---
+
+## Notes
+
+-  Feature-specific logic (transactions, analytics, notifications, etc.) is separated into dedicated blocs and repositories.
+-  Navigation is handled by GoRouter for smooth and flexible routing.
+-  User and transaction data are stored and synchronized via Firebase.
+
+
